@@ -1,0 +1,14 @@
+<div id="modal" class="error"> <!-- quando a classe "hide" desaparecer, a div irá aparecer na tela. Por enquanto a classe "hide" está configurada com display: none; no CSS, mas por javascrip, quando apertarmos o botão correto, a classe será removida e a div irá aparecer na tela.-->
+    <div class="content">
+        <img src="/extras-aula-1/icones/x.svg" alt="Erro no cadastro">
+        <h1>Erro no cadastro!</h1>
+    </div>
+</div>
+
+<script>
+
+    setTimeout(() => {
+        window.location = '/create-point'
+    }, 2000) // contagem em milissegundos
+
+</script>

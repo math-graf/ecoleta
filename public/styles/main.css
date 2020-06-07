@@ -1,0 +1,43 @@
+:root {
+    --title-color: #322153; /* adiciona uma variável chamada --title-color que pode ser alterada através do :root */
+    --primary-color: #34cb79;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* inclui a borda no box */
+}
+
+html { 
+    font-family: 'Roboto', sans-serif; 
+}
+
+/* BOX MODEL 
+
+Modelo de caixa
+Toda caixa tem
+Largura, altura, espaçamentos, preenchimentos
+bordas, cor, fundo, maneira que é vista pelo html (display)
+
+display: inline;  -  elemento ocupa o espaço em linha. Se tiver espaço, o próximo elemento ficará lado a lado.
+
+display: block;  -  elemento ocupa a largura inteira da "caixa". Próximo elemento é enviado para baixo do elemento anterior.
+
+display: flex;  -  um elemento ao lado do outro.
+
+*/
+
+body {
+    background: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+}
